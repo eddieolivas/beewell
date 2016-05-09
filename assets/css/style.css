@@ -26,7 +26,25 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* let's give blockquotes *some* default styling, because unstyled blockquotes are dangerous */
 blockquote {padding: 16px; background: #eee;}
 
+body {
+	background-color: #ccc;
+}
 
+header {
+	padding-top: 45px;
+}
+
+.top-intro {
+	color: #663399;
+	font-family: harrington;
+	font-size: 40px;
+	text-align: center;
+}
+
+@font-face {
+	font-family: harrington;
+	src: url(/assets/fonts/harrington.ttf);
+}
 
 /* Media queries
 -------------------------------------------------------------------------------*/
