@@ -6,7 +6,7 @@ body {font: 13px Helmet, Freesans, sans-serif;}
 /* We like off-black for text. */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
+a {color: #663399!important;}
 a:hover {color: #69f;}
 
 /* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
@@ -44,6 +44,7 @@ header {
 .top-intro {
 	color: #663399;
 	font-size: 47px;
+	padding-top: 25px;
 	text-align: center;
 }
 
@@ -74,6 +75,11 @@ footer {
 	font-size: 40px;
 	padding-top: 55px;
 	text-align: center;
+}
+
+footer .footer-note a {
+	display: inline-block;
+	line-height: 40px;
 }
 
 
