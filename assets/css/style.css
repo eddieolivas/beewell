@@ -26,8 +26,15 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* let's give blockquotes *some* default styling, because unstyled blockquotes are dangerous */
 blockquote {padding: 16px; background: #eee;}
 
+@font-face {
+	font-family: harrington;
+	src: url(/beewell/assets/fonts/harrington.ttf);
+}
+
+
 body {
-	background-color: #ccc;
+	background-color: #e7e6e6!important;
+	font-family: harrington!important;
 }
 
 header {
@@ -36,15 +43,40 @@ header {
 
 .top-intro {
 	color: #663399;
-	font-family: harrington;
+	font-size: 47px;
+	text-align: center;
+}
+
+#section-1, #section-2 {
+	clear: both;
+	padding-top: 35px;
+}
+
+#section-1 h2, #section-2 h2 {
+	color: #000;
+	font-size: 44px;
+	text-align: center;
+}
+
+#section-2 h2 {
+	color: #663399;
+	font-size: 50px;
+}
+
+#section-2 h3 {
+	color: #663399;
 	font-size: 40px;
 	text-align: center;
 }
 
-@font-face {
-	font-family: harrington;
-	src: url(/assets/fonts/harrington.ttf);
+footer {
+	clear: both;
+	font-size: 40px;
+	padding-top: 55px;
+	text-align: center;
 }
+
+
 
 /* Media queries
 -------------------------------------------------------------------------------*/
